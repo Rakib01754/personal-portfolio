@@ -28,16 +28,16 @@ const Navbar = () => {
                 >
                     <ul className="flex flex-col lg:flex-row list-none lg:ml-auto font-bold text-white">
                         <li className="flex">
-                            <a href="#" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent'>Projects</a>
+                            <a href="#projects" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent'>Projects</a>
                         </li>
                         <li className="flex">
-                            <a href="#" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent'>Skills</a>
+                            <a href="#skills" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent'>Skills</a>
                         </li>
                         <li className="flex">
-                            <a href="#" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent'>About</a>
+                            <a href="#about" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent'>About</a>
                         </li>
                         <li className="flex">
-                            <a href="#" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent'>Contact</a>
+                            <a href="#contact" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent'>Contact</a>
                         </li>
                         <li className="flex">
                             <a href={resume} className='flex items-center border-2 border-white hover:bg-orange-600 px-4 py-2 -mb-1 mt-2 md:mt-0 border-b-2 border-transparent' download>Download Resume</a>

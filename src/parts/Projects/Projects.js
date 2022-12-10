@@ -5,7 +5,7 @@ import project3 from '../../assets/project3.png'
 
 const Projects = () => {
     return (
-        <div className='container px-5 py-10 mx-auto'>
+        <div className='container px-5 py-10 mx-auto' id='projects'>
             <div className="flex flex-col text-center w-full mb-4">
                 <h1 className="sm:text-5xl text-3xl font-medium title-font mb-2 text-gray-900 underline">Projects</h1>
             </div>
