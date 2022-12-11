@@ -6,8 +6,8 @@ import project3 from '../../assets/project3.png'
 const Projects = () => {
     return (
         <div className='container px-5 py-10 mx-auto' id='projects'>
-            <div className="flex flex-col text-center w-full mb-4">
-                <h1 className="sm:text-5xl text-3xl font-medium title-font mb-2 text-gray-900 underline">Projects</h1>
+            <div className="flex flex-col text-center w-full">
+                <h1 className="sm:text-5xl text-3xl font-medium title-font mb-12 text-[#F25B9D] underline">Projects</h1>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 <div class="relative bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
