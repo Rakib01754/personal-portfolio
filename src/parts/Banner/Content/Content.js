@@ -8,7 +8,7 @@ const Content = () => {
         <div className='container mx-auto text-center mt-20'>
             <div className='flex justify-center'><img className="w-48 h-48 rounded-full" src={profile} alt="rakib"></img></div>
             <h1 className='font-bold text-white text-3xl md:text-6xl font-mono mt-2'>Hi, I'm Rakib</h1>
-            <h4 className='text-purple-500 font-bold text-2xl md:text-4xl'>
+            <h4 className='text-white font-bold text-2xl md:text-4xl'>
                 <Typewriter
                     words={['MERN Stack Developer', 'Front End Developer', 'React Developer']}
                     loop={10}

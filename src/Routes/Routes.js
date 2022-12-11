@@ -1,6 +1,7 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from '../layout/Main/Main';
+import Blogs from '../pages/Blogs/Blogs';
 import Error from '../pages/Error/Error';
 import ProjectDetails from '../parts/Projects/ProjectDetails/ProjectDetails';
 
@@ -10,6 +11,10 @@ const Routes = () => {
             path: '/',
             element: <Main></Main>,
             errorElement: <Error></Error>
+        },
+        {
+            path: 'blogs',
+            element: <Blogs></Blogs>
         },
         {
             path: 'projectdetails/:projectId',

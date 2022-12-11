@@ -2,12 +2,12 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <section className="bg-[#6E559E]" id='skills'>
+        <section className="bg-[#E0F3FA]" id='skills'>
             <div className="container px-5 py-10 mx-auto">
                 <div className="flex flex-col text-center w-full mb-12">
-                    <h1 className="sm:text-5xl text-3xl font-medium title-font text-[#F25B9D] underline">My Skills</h1>
+                    <h1 className="sm:text-5xl text-3xl font-medium title-font text-[#6060B6] underline">My Skills</h1>
                 </div>
-                <div className="flex flex-wrap -m-2 text-white">
+                <div className="flex flex-wrap -m-2 text-black">
                     <div className="p-2 lg:w-1/4 md:w-1/3  w-full">
                         <div className="h-full flex items-center border-white border p-4 rounded-lg shadow-lg">
                             <img alt="team" className="w-16 h-16 bg-gray-100 object-center flex-shrink-0 rounded-full mr-4" src="https://cdn-icons-png.flaticon.com/128/721/721671.png" />
