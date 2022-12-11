@@ -1,6 +1,7 @@
 import { Toaster } from 'react-hot-toast';
 import './App.css';
 import Main from './layout/Main/Main';
+import Routes from './Routes/Routes';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         position="top-center"
         reverseOrder={false}
       />
-      <Main></Main>
+      <Routes></Routes>
     </div>
   );
 }
