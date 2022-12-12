@@ -18,7 +18,7 @@ const Routes = () => {
         },
         {
             path: 'projectdetails/:projectId',
-            loader: ({ params }) => fetch(`http://localhost:5000/project/${params.projectId}`),
+            loader: ({ params }) => fetch(`https://my-portfolio-server-beta.vercel.app/project/${params.projectId}`),
             element: <ProjectDetails></ProjectDetails>
         }
     ])
