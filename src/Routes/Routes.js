@@ -18,7 +18,7 @@ const Routes = () => {
         },
         {
             path: 'projectdetails/:projectId',
-            loader: ({ params }) => fetch(`projectData.json`),
+            loader: ({ params }) => fetch(`http://localhost:5000/project/${params.projectId}`),
             element: <ProjectDetails></ProjectDetails>
         }
     ])

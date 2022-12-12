@@ -10,10 +10,10 @@ const Navbar = () => {
             <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
                 <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                     <Link to="/" aria-label="Back to homepage" className="flex items-center p-2">
-                        <h1 className='font-bold text-white text-4xl font-mono'>Rakib</h1>
+                        <h1 className='font-bold text-black text-4xl font-mono'>Rakib</h1>
                     </Link>
                     <button
-                        className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                        className="text-black p-4 animate-pulse cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                         type="button"
                         onClick={() => setNavbarOpen(!navbarOpen)}
                     >
@@ -27,27 +27,24 @@ const Navbar = () => {
                     }
                     id="example-navbar-danger"
                 >
-                    <ul className="flex flex-col lg:flex-row list-none lg:ml-auto font-bold text-white">
+                    <ul className="flex flex-col lg:flex-row list-none lg:ml-auto font-bold text-black">
                         <li className="flex">
-                            <Link to="/" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent hover:text-[#F25B9D]'>Home</Link>
+                            <a href="#projects" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent hover:text-white'>Projects</a>
                         </li>
                         <li className="flex">
-                            <a href="#projects" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent hover:text-[#F25B9D]'>Projects</a>
+                            <a href="#skills" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent hover:text-white'>Skills</a>
                         </li>
                         <li className="flex">
-                            <a href="#skills" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent hover:text-[#F25B9D]'>Skills</a>
+                            <a href="#about" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent hover:text-white'>About</a>
                         </li>
                         <li className="flex">
-                            <a href="#about" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent hover:text-[#F25B9D]'>About</a>
+                            <a href="#contact" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent hover:text-white'>Contact</a>
                         </li>
                         <li className="flex">
-                            <a href="#contact" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent hover:text-[#F25B9D]'>Contact</a>
+                            <Link to="/blogs" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent hover:text-white'>Blogs</Link>
                         </li>
                         <li className="flex">
-                            <Link to="/blogs" className='flex items-center px-4 py-2 -mb-1 border-b-2 border-transparent hover:text-[#F25B9D]'>Blogs</Link>
-                        </li>
-                        <li className="flex">
-                            <a href={resume} className='flex items-center border-2 border-white hover:bg-[#F25B9D] px-4 py-2 -mb-1 mt-2 md:mt-0 border-b-2 border-transparent' download>Download Resume</a>
+                            <a href={resume} className='flex items-center hover:bg-[#1073E5] hover:text-white outline outline-white px-4 py-2 -mb-1 mt-2 md:mt-0 border-b-2 border-transparent' download>Download Resume</a>
                         </li>
                     </ul>
 
